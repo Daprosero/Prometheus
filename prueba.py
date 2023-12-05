@@ -4,7 +4,7 @@ from openai import OpenAI
 st.title("ChatGPT-like clone")
 
 # Set OpenAI API key securely
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="**")
 
 # Set a default model and initialize chat history
 if "openai_model" not in st.session_state:
